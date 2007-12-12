@@ -11,7 +11,7 @@ Group:		Graphical desktop/WindowMaker
 Source0:	%{name}%{version}.tar.bz2
 Source1:	%{name}-icons.tar.bz2
 URL:		http://www.jourdain.org/wmpop3/wmpop3lb%{version}.tar.gz
-BuildRequires:	XFree86-devel, xpm-devel
+BuildRequires:	X11-devel, xpm-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
