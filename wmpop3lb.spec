@@ -1,6 +1,6 @@
 %define name		wmpop3lb
 %define version 2.4.2
-%define release 2mdk
+%define release %mkrel 2
 
 Summary: 	WMPop3LB is a POP3 mail box checker
 Name:		%{name}
