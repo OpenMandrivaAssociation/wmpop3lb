@@ -12,6 +12,7 @@ Source0:	%{name}%{version}.tar.bz2
 Source1:	%{name}-icons.tar.bz2
 URL:		http://www.jourdain.org/wmpop3/wmpop3lb%{version}.tar.gz
 BuildRequires:	X11-devel, xpm-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
  WMPop3LB is a multi POP3 accounts mailbox checker. It can connect to up to 6
