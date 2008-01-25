@@ -1,12 +1,12 @@
 %define name		wmpop3lb
 %define version 2.4.2
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: 	WMPop3LB is a POP3 mail box checker
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-License:	GPL
+License:	GPLv2+
 Group:		Graphical desktop/WindowMaker
 Source0:	%{name}%{version}.tar.bz2
 Source1:	%{name}-icons.tar.bz2
@@ -50,9 +50,9 @@ cat << EOF > %buildroot%{_datadir}/applications/mandriva-%{name}.desktop
 [Desktop Entry]
 Type=Application
 Exec=/usr/bin/%{name}
-Icon=%{name}.png                  
+Icon=%{name}
 Categories=Office;Network;Email;
-Name=WmPop3lb 		  
+Name=WmPop3lb
 Comment=Multiple mailbox monitoring via Pop3 in a dockapp
 EOF
 
@@ -76,4 +76,3 @@ EOF
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
 %{_datadir}/applications/mandriva-%{name}.desktop
-
