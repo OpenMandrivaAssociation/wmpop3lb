@@ -2,7 +2,7 @@
 %define version 2.4.2
 %define release %mkrel 3
 
-Summary: 	WMPop3LB is a POP3 mail box checker
+Summary: 	POP3 mail box checker
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
