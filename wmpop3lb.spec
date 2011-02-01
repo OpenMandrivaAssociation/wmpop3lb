@@ -1,6 +1,6 @@
 %define name		wmpop3lb
 %define version 2.4.2
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: 	POP3 mail box checker
 Name:		%{name}
@@ -11,7 +11,9 @@ Group:		Graphical desktop/WindowMaker
 Source0:	%{name}%{version}.tar.bz2
 Source1:	%{name}-icons.tar.bz2
 URL:		http://www.jourdain.org/wmpop3/wmpop3lb%{version}.tar.gz
-BuildRequires:	X11-devel, xpm-devel
+BuildRequires:	libx11-devel
+BuildRequires:	libxext-devel
+BuildRequires:	libxpm-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
@@ -27,7 +29,7 @@ BuildRoot:	%{_tmppath}/%{name}-buildroot
 	
 %prep
 
-%setup -n %{name}%{version}
+%setup -qn %{name}%{version}
 mv wmpop3/.wmpop3rc_test wmpop3/wmpop3rc 
 
 %build
