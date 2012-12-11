@@ -82,3 +82,55 @@ EOF
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
 %{_datadir}/applications/mandriva-%{name}.desktop
+
+
+%changelog
+* Tue Feb 01 2011 Funda Wang <fwang@mandriva.org> 2.4.2-9mdv2011.0
++ Revision: 634826
+- simplify BR
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 2.4.2-8mdv2010.0
++ Revision: 434894
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 2.4.2-7mdv2009.0
++ Revision: 262061
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 2.4.2-6mdv2009.0
++ Revision: 256255
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 2.4.2-4mdv2008.1
++ Revision: 171174
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+
+* Fri Jan 25 2008 Funda Wang <fwang@mandriva.org> 2.4.2-3mdv2008.1
++ Revision: 157774
+- fix desktop file
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Dec 20 2007 Thierry Vignaud <tv@mandriva.org> 2.4.2-2mdv2008.1
++ Revision: 135533
+- auto-convert XDG menu entry
+- kill re-definition of %%buildroot on Pixel's request
+- buildrequires X11-devel instead of XFree86-devel
+- use %%mkrel
+- import wmpop3lb
+
+
+* Thu Jun 02 2005 Nicolas Lécureuil <neoclust@mandriva.org> 2.4.2-2mdk
+- Rebuild
+
+* Thu Apr 29 2004 Guillaume Bedot <guillaume.bedot@wanadoo.fr> 2.4.2-1mdk
+- New version 2.4.2
+
+* Mon Feb 11 2002 HA Quôc-Viêt <viet@mandrakesoft.com> 2.0-1mdk
+- Initial packaging.
+- A sample configuration file is in the doc dir.
