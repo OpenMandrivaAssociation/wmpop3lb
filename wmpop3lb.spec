@@ -1,6 +1,6 @@
 %define name		wmpop3lb
 %define version 2.4.2
-%define release %mkrel 9
+%define release  10
 
 Summary: 	POP3 mail box checker
 Name:		%{name}
@@ -14,7 +14,6 @@ URL:		http://www.jourdain.org/wmpop3/wmpop3lb%{version}.tar.gz
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xpm)
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
  WMPop3LB is a multi POP3 accounts mailbox checker. It can connect to up to 6
