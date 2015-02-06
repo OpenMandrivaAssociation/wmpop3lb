@@ -1,6 +1,6 @@
 %define name		wmpop3lb
 %define version 2.4.2
-%define release  10
+%define release  11
 
 Summary: 	POP3 mail box checker
 Name:		%{name}
