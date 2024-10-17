@@ -10,7 +10,7 @@ License:	GPLv2+
 Group:		Graphical desktop/WindowMaker
 Source0:	%{name}%{version}.tar.bz2
 Source1:	%{name}-icons.tar.bz2
-URL:		http://www.jourdain.org/wmpop3/wmpop3lb%{version}.tar.gz
+URL:		https://www.jourdain.org/wmpop3/wmpop3lb%{version}.tar.gz
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xpm)
